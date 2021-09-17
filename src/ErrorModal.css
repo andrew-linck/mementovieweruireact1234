@@ -1,0 +1,25 @@
+.error_modal {
+  border: 0.25em solid;
+  border-radius: 0.5em;
+  padding: 1em 1em 0em 1em;
+  background-color: #dfdfdf;
+}
+
+.error_modal .title {
+  font-weight: 700;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 0.05em solid #7f0000;
+  color: #7f0000;
+}
+
+.error_modal .space_top {
+  margin-top: 1em;
+}
+
+.error_modal .message {
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5em;
+  color: #3f3f3f;
+}

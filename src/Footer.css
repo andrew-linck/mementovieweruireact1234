@@ -1,0 +1,36 @@
+.footer-container .MuiContainer-root {
+  background-color: #8187ff;
+  z-index: 1;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  max-width: none;
+}
+
+.footer-container {
+  width: 100vw;
+}
+
+.footer-container .MuiTypography-root {
+  padding: 0px 12px 0px 12px;
+}
+
+#mousePosition {
+  float: right;
+}
+
+#measureNumber {
+  float: left;
+}
+#positionUnit {
+  float: right;
+}
+
+.ol-mouse-position {
+  top: 0;
+  bottom: 0;
+}
+
+.ol-scale-line {
+  margin-bottom: 25px;
+}

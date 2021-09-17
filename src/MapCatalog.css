@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+
+#mapsets {
+  height: 500px;
+  width: 50%;
+  display: inline-block;
+  background-color: #f1f0f1;
+  position: absolute;
+  right: 0;
+}
+
+#tree-container {
+  height: 500px;
+  width: 50%;
+  background-color: #f1f0f1;
+  display: inline-block;
+  position: absolute;
+}
+
+.catalog-inner-container {
+  height: 500px;
+  padding: 10px 0 10px 0;
+  display: block;
+}
+
+.MuiButtonBase-root.MuiButton-root.MuiButton-contained {
+  margin: 10px;
+}
+
+.MuiButton-label {
+  font-size: 12px;
+}
+
+[type="file"] {
+  height: 0;
+  overflow: hidden;
+  width: 0;
+}
+
+[type="file"] + label {
+  background: #e0e0e0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 1rem;
+  outline: none;
+  padding: 0.5rem 20px;
+  position: relative;
+  box-shadow: 0px 1px 2px #b8b8b8;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+[type="file"] + label:hover {
+  background-color: #dbdbdb;
+  transition: background-color 0.2s linear;
+  box-shadow: 0px 2px 5px #c0c0c0;
+  transition: box-shadow 0.2s linear;
+}

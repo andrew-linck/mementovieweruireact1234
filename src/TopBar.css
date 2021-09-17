@@ -1,0 +1,38 @@
+.topBar-container {
+  position: absolute;
+  z-index: 10;
+  width: calc(100% - 40px);
+  top: 0px;
+  left: 0px;
+}
+
+.topBar-container .MuiAppBar-root {
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 2;
+  width: 100%;
+}
+
+.topBar-container .MuiBox-root {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.topBar-container .MuiButton-root {
+  background-color: #f5f5f6;
+  margin: 8px;
+  min-width: 0;
+  padding: 8px 13px;
+}
+
+/* .topBar-container .MuiSvgIcon-root {
+  fill: rgba(0, 0, 0, 0.7);
+} */
+
+.topBar-container .topBar-inner-container {
+  top: unset;
+  left: unset;
+  right: unset;
+  position: unset;
+}
+
+/* Button Tips */

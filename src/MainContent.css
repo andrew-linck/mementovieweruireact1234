@@ -1,0 +1,80 @@
+.main-container.open {
+  position: absolute;
+  background-color: #e0e1e0;
+  z-index: 0;
+  width: calc(100vw - 310px);
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+}
+
+.main-container {
+  width: 100vw;
+  position: absolute;
+  background-color: #e0e1e0;
+  z-index: 0;
+  height: 100vh;
+  top: 0px;
+  right: 0px;
+}
+
+.main-container.transitioning {
+  transition-timing-function: cubic-bezier(0,0,0.2,1);
+}
+
+.main-container .openlayers-map {
+  position: relative;
+  height: calc(100% - 24px);
+  width: 100%;
+  z-index: -10;
+}
+
+/* CSS for the controls for map view */
+/* Slider */
+.main-container .ol-zoomslider {
+  /* top: calc(4.5em + 2.5em); */ /* Move the controls down */
+  top: 4.5em;
+  right: 0.5em;
+  left: initial;
+  height: 200px;
+}
+/* Extent Button */
+.main-container .ol-zoom-extent {
+  /* top: calc(4.643em + 2.5em); */ /* Move the controls down */
+  top: 4.643em;
+  right: 0.5em;
+  left: initial;
+}
+/* Zoom Buttons */
+.main-container .ol-zoom {
+  /* top: calc(0.5em + 2.5em); */ /* Move the controls down */
+  top: 0.5em;
+  right: 0.5em;
+  left: initial;
+}
+/* Scale Meter Stick */
+.main-container .ol-scale-line {
+  background: rgba(0,60,136,.3);
+  border-radius: 4px;
+  bottom: 8px;
+  left: initial;
+  right: 0.5em;
+  padding: 2px;
+  position: absolute;
+}
+/* Information Button */
+.main-container .ol-attribution {
+  text-align: right;
+  /* top: calc(18em + 2.5em); */ /* Move the controls down */
+  top: 18em;
+  bottom: initial;
+  display: none;
+  right: .5em;
+  max-width: calc(100% - 1.3em);
+}
+/* Rotate Button */
+.main-container .ol-rotate {
+  visibility: visible;
+  opacity: 100%;
+  display: none;
+}

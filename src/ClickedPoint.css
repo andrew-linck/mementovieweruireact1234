@@ -1,0 +1,13 @@
+#clickedPoint {
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 40px;
+}
+
+#clickedPointImg {
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 8px;
+}

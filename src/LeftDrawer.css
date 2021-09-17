@@ -1,0 +1,45 @@
+.drawer-container.open {
+  transform: translate(0);
+}
+
+.drawer-container {
+  background-color: #f1f0f1;
+  width: 310px;
+  transition-timing-function: cubic-bezier(0,0,0.2,1);
+  height: 100%;
+  transform: translate(-310px);
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+
+.drawer-container .MuiTab-root {
+  min-width: 155px;
+  background-color: #8187ff;
+  color: white;
+}
+
+.drawer-container .tabs {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 4;
+}
+
+.drawer-container .tab-panel {
+  position: absolute;
+  left: 0px;
+  top: 48px;
+  height: calc(100vh - 48px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 310px;
+}
+
+.drawer-container .MuiTabs-indicator {
+  background-color: #3d5aff;
+}
+
+.drawer-container .MuiCircularProgress-colorPrimary {
+  margin: 135px;
+}
